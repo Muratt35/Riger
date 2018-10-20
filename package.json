@@ -1,11 +1,13 @@
 {
   "name": "Riger Bot",
-  "version": "0.0.1",
   "description": "Riger",
+  "version": "0.0.1",
   "main": "bot.js",
   "scripts": {
-    "test": "node bot.js"
+    "start": "node bot.js"
   },
-  "author": "Muratt",
-  "license": "ISC"
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+    }
 }
