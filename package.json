@@ -1,0 +1,11 @@
+{
+  "name": "Riger Bot",
+  "version": "0.0.1",
+  "description": "Riger",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "author": "Muratt",
+  "license": "ISC"
+}
