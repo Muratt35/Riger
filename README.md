@@ -1,2 +1,0 @@
-# Riger-Bot
-Riger Bot 
