@@ -116,4 +116,4 @@ client.on('error', e => {
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(ayarlar.BOT_TOKEN);
+client.login(NTY0NzIwNzk5MDY0MjYwNjE4.XKsARA.r3ByBziDHmWJwkhqN9uw9VKSg7c);
