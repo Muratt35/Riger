@@ -116,4 +116,4 @@ client.on('error', e => {
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
+client.login(ayarlar.BOT_TOKEN);
