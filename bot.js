@@ -11,7 +11,7 @@ client.on('message', message => {
 };
 
 client.on('message', message => {
-    if (message.content === 'Rbd') {
+    if (message.content === 'rbd') {
     	message.reply('Hazırım');
   	}
 });
