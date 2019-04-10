@@ -1,12 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.on('message', args => {
-    if (message.content === 'sil5') {
-    	  message.channel.bulkDelete(6);
-  	}
-});
-
 client.on('message', message => {
     if (message.content === 'Rbd') {
     	message.reply('Hazırım');
