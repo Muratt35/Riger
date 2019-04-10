@@ -1,17 +1,14 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-    
-client.on('message', message => {
-    if (message.content === 'sil')
-  let mesajsayisi = parseInt(args.join(' '));
-  if (mesajsayisi.length < 1) return message.channel.send('Kaç mesaj silmem gerektiğini belirtmedin.')
-  if (mesajsayisi > 100) return message.channel.send('100 adetden fazla mesaj silemem!');
-  message.channel.bulkDelete(mesajsayisi + 1);
-  message.channel.send(mesajsayisi +' adet mesaj sildim!')
-};
+
+client.on('message', args => {
+    if (message.content === 'sil5') {
+    	  message.channel.bulkDelete(6);
+  	}
+});
 
 client.on('message', message => {
-    if (message.content === 'rbd') {
+    if (message.content === 'Rbd') {
     	message.reply('Hazırım');
   	}
 });
